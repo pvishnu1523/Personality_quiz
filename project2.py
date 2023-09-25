@@ -36,6 +36,7 @@ def start_quiz():
         user_answers[choice]=answer
     personality_type=calculate_personality(user_answers)
     print(f"\n based on the options you choose we recommend:{personality_type}")
-start_quiz()            
+if __name__=="__main__":
+    start_quiz()
             
     
