@@ -20,7 +20,7 @@ def calculate_personality(answers):
     temp=" "
     if score<=4:
         temp="Find friends and try to interact with others"
-    elif score<=8:
+    elif score>4 and score<=8:
         temp="your life is awesome keep going on...."
     else:
         temp="try to tspend some time with yourself"
