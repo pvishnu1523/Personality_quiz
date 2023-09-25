@@ -21,9 +21,9 @@ def calculate_personality(answers):
     if score<=4:
         temp="Find friends and try to interact with others"
     elif score>4 and score<=8:
-        temp="your life is awesome keep going on...."
-    else:
         temp="try to spend some time with yourself"
+    else:
+        temp="your life is awesome keep going on...."
     return temp    
 def start_quiz():
     print("welcome to the program")
