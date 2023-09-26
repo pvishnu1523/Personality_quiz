@@ -1,5 +1,5 @@
-from project1 import Questions
-from project1 import Personality_quiz
+from Personality_quiz import Questions
+from Personality_quiz import Personality_quiz
 if __name__=="__main__":
     q1=Questions("How do you describe your social personality?",["Introverted","Extroverted","Balanced"])
     q2=Questions("What is your preffd leisure activity?",["Reading a book","Attending parties","Outdoor sports"])
